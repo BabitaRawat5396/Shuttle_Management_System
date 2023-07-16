@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="1">
+      <Name>BusTest::testBus</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>TestBus.cpp</File>
+        <Line>52</Line>
+      </Location>
+      <Message>equality assertion failed
+- Expected: 1
+- Actual  : 0
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests></SuccessfulTests>
+  <Statistics>
+    <Tests>1</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>
